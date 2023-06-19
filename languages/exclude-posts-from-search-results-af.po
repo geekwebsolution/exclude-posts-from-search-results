@@ -1,0 +1,235 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Exclude Posts from Search Results\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-09-22 12:29+0000\n"
+"PO-Revision-Date: 2021-10-07 04:22+0000\n"
+"Last-Translator: \n"
+"Language-Team: Afrikaans\n"
+"Language: af\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Loco https://localise.biz/\n"
+"X-Loco-Version: 2.5.4; wp-5.8.1\n"
+"X-Domain: exclude-posts-from-search-results"
+
+#: settings.php:278
+msgid "(Non-Login)"
+msgstr "(Nie-aanmelding)"
+
+#: settings.php:141
+msgid "All User roles"
+msgstr "Alle gebruikersrolle"
+
+#: settings.php:291
+msgid ""
+"By default, this plugin will exclude posts only for guest (non-logged-in) "
+"users, if you want to exclude posts for any specific role type then you can "
+"select that user role from here."
+msgstr ""
+"Hierdie inprop sluit standaard slegs plasings uit vir gasgebruikers (nie-"
+"aangemelde gebruikers). As u plasings vir 'n spesifieke roltipe wil uitsluit,"
+" kan u die gebruikersrol hiervandaan kies."
+
+#: settings.php:114
+msgid "Custom Keyword and Sentence :"
+msgstr "Pasgemaakte sleutelwoord en sin:"
+
+#: settings.php:190
+msgid ""
+"Enter any keyword or sentence to exclude the posts from search results that "
+"contain these keywords or sentences in their title, content, or excerpt."
+msgstr ""
+"Voer enige sleutelwoord of sin in om die plasings uit te sluit van "
+"soekresultate wat hierdie sleutelwoorde of sinne bevat in hul titel, inhoud "
+"of uittreksel."
+
+#: settings.php:306
+msgid ""
+"Exclude all posts of a post type from search results by just selecting the "
+"post type, no need to select individual posts. All the posts from selected "
+"post types will get excluded from the search results."
+msgstr ""
+"Sluit alle plasings van 'n plasingstipe uit van die soekresultate deur net "
+"die plasingstipe te kies; u hoef nie individuele plasings te kies nie. Al "
+"die plasings van geselekteerde posttipes word uitgesluit van die "
+"soekresultate."
+
+#: settings.php:330
+msgid ""
+"Exclude all posts of a specific Author from search results, no need to "
+"select individual posts for a specific Term. All the posts from the selected "
+"Author will get excluded from the search results."
+msgstr ""
+"Sluit alle plasings van 'n spesifieke outeur uit van die soekresultate, u "
+"hoef nie individuele plasings vir 'n spesifieke termyn te kies nie. Al die "
+"plasings van die geselekteerde outeur word uitgesluit van die soekresultate."
+
+#: settings.php:318
+msgid ""
+"Exclude all posts of a specific Term from search results by just selecting "
+"the Term, no need to select individual posts for a specific Term. All the "
+"posts from selected Terms will get excluded from the search results."
+msgstr ""
+"Sluit alle plasings van 'n spesifieke term uit van die soekresultate deur "
+"net die term te kies; u hoef nie individuele plasings vir 'n spesifieke term "
+"te kies nie. Al die plasings van geselekteerde terme word uitgesluit van die "
+"soekresultate."
+
+#: settings.php:43
+msgid "Exclude By Keywords"
+msgstr "Uitsluit by sleutelwoorde"
+
+#: settings.php:46 settings.php:301
+msgid "Exclude By Post Types"
+msgstr "Sluit per pos tipes uit"
+
+#: functions.php:37
+msgid "Exclude Post"
+msgstr "Sluit pos uit"
+
+#: functions.php:154
+#| msgid "Exclude Posts From Search Result"
+msgid "Exclude Post From Search Result"
+msgstr "Sluit plasings uit by soekresultate"
+
+#: functions.php:52
+msgid "Exclude Post from Search Results"
+msgstr "Sluit plasing uit van soekresultate"
+
+#: settings.php:325
+msgid "Exclude Posts By Author"
+msgstr "Sluit plasings deur outeur uit"
+
+#: settings.php:313
+msgid "Exclude Posts By Term(Category)"
+msgstr "Sluit plasings per term uit (kategorie)"
+
+#: settings.php:37
+msgid "Exclude Posts From Search Results"
+msgstr "Sluit plasings uit by soekresultate"
+
+#. Name of the plugin
+msgid "Exclude Posts from Search Results"
+msgstr "Exclude Posts from Search Results"
+
+#: settings.php:108
+msgid "Exclude Posts From Search Results by Keyword and Sentence"
+msgstr "Sluit plasings uit van soekresultate volgens sleutelwoord en sin"
+
+#: settings.php:147
+#| msgid "Excluded User roles :"
+msgid "Exclude User Role :"
+msgstr "Gebruikersrol uitsluit:"
+
+#: settings.php:48
+msgid "Excluded Authors"
+msgstr "Uitgesluit Skrywers"
+
+#: settings.php:44
+msgid "Excluded Posts"
+msgstr "Uitgesluit poste"
+
+#: settings.php:47
+msgid "Excluded Terms"
+msgstr "Voorwaardes uitgesluit"
+
+#: settings.php:193
+msgid "excluded user role, You can update from"
+msgstr "gebruikersrol uitgesluit, u kan opdateer vanaf"
+
+#. Author of the plugin
+msgid "Geek Code Lab"
+msgstr "Geek Code Lab"
+
+#: settings.php:49 settings.php:160
+msgid "Get Pro *"
+msgstr "Kry Pro *"
+
+#: settings.php:193
+msgid "Here"
+msgstr "Hier"
+
+#. Author URI of the plugin
+msgid "https://geekcodelab.com/"
+msgstr "https://geekcodelab.com/"
+
+#: settings.php:127
+msgid "List of Posts, Excluded From Search Results"
+msgstr "Lys van plasings, uitgesluit van soekresultate"
+
+#: settings.php:232
+msgid "No Posts excluded from the search results yet."
+msgstr "Nog geen plasings uitgesluit van die soekresultate nie."
+
+#: settings.php:189 settings.php:291
+msgid "Note:"
+msgstr "Let wel:"
+
+#: settings.php:46 settings.php:47 settings.php:48
+msgid "pro"
+msgstr "PRO"
+
+#: settings.php:343
+msgid "Regular Updates."
+msgstr "Gereelde opdaterings."
+
+#: settings.php:268
+msgid "Save Changes"
+msgstr "Stoor veranderinge"
+
+#: settings.php:58 settings.php:78
+msgid "Save Settings"
+msgstr "Stoor instellings"
+
+#: functions.php:79 settings.php:17 settings.php:18
+msgid "Search Exclude"
+msgstr "Soek uitsluit"
+
+#: exclude-posts-from-search-results.php:190
+msgid "Settings"
+msgstr "Instellings"
+
+#: exclude-posts-from-search-results.php:187 settings.php:337
+msgid "Support"
+msgstr "Ondersteuning"
+
+#. Description of the plugin
+msgid ""
+"This plugin excludes posts and pages from site's search results without "
+"harming SEO performance."
+msgstr ""
+"Hierdie inprop sluit plasings en bladsye uit die soekresultate van die "
+"webwerf uit sonder om SEO -prestasie te benadeel."
+
+#: settings.php:337
+msgid "Timely"
+msgstr "Tydig"
+
+#: settings.php:240
+msgid "Title"
+msgstr "Titel"
+
+#: settings.php:241
+msgid "Type"
+msgstr "Tik"
+
+#: settings.php:353
+msgid "Upgrade To Premium"
+msgstr "Gradeer op na Premium"
+
+#: settings.php:45
+#| msgid "User roles"
+msgid "User Roles"
+msgstr "Gebruikersrolle"
+
+#: settings.php:349
+msgid "Well Documented."
+msgstr "Goed gedokumenteer."
+
+#: settings.php:28
+msgid "You do not have sufficient permissions to access this page."
+msgstr ""
+"U het nie voldoende toestemming om toegang tot hierdie bladsy te verkry nie."

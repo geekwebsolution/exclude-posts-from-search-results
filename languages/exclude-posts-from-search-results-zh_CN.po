@@ -1,0 +1,215 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Exclude Posts from Search Results\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-10-05 12:17+0000\n"
+"PO-Revision-Date: 2021-10-07 04:27+0000\n"
+"Last-Translator: \n"
+"Language-Team: Chinese (China)\n"
+"Language: zh_CN\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Loco https://localise.biz/\n"
+"X-Loco-Version: 2.5.4; wp-5.8.1\n"
+"X-Domain: exclude-posts-from-search-results"
+
+#: settings.php:278
+msgid "(Non-Login)"
+msgstr "(非登录)"
+
+#: settings.php:141
+msgid "All User roles"
+msgstr "所有用户角色"
+
+#: settings.php:291
+msgid ""
+"By default, this plugin will exclude posts only for guest (non-logged-in) "
+"users, if you want to exclude posts for any specific role type then you can "
+"select that user role from here."
+msgstr "默认情况下，此插件将仅排除访客（未登录）用户的帖子，如果您想排除任何特定角色类型的帖子，则可以从此处选择该用户角色。"
+
+#: settings.php:114
+msgid "Custom Keyword and Sentence :"
+msgstr "自定义关键字和句子："
+
+#: settings.php:190
+msgid ""
+"Enter any keyword or sentence to exclude the posts from search results that "
+"contain these keywords or sentences in their title, content, or excerpt."
+msgstr "输入任何关键字或句子以从搜索结果中排除标题、内容或摘录中包含这些关键字或句子的帖子。"
+
+#: settings.php:306
+msgid ""
+"Exclude all posts of a post type from search results by just selecting the "
+"post type, no need to select individual posts. All the posts from selected "
+"post types will get excluded from the search results."
+msgstr "只需选择帖子类型即可从搜索结果中排除该帖子类型的所有帖子，无需选择单个帖子。所选帖子类型的所有帖子都将从搜索结果中排除。"
+
+#: settings.php:330
+msgid ""
+"Exclude all posts of a specific Author from search results, no need to "
+"select individual posts for a specific Term. All the posts from the selected "
+"Author will get excluded from the search results."
+msgstr "从搜索结果中排除特定作者的所有帖子，无需为特定术语选择单个帖子。所选作者的所有帖子都将从搜索结果中排除。"
+
+#: settings.php:318
+msgid ""
+"Exclude all posts of a specific Term from search results by just selecting "
+"the Term, no need to select individual posts for a specific Term. All the "
+"posts from selected Terms will get excluded from the search results."
+msgstr ""
+"只需选择 Term 即可从搜索结果中排除特定 Term 的所有帖子，无需为特定 Term 选择单个帖子。来自选定条款的所有帖子都将从搜索结果中排除。"
+
+#: settings.php:43
+msgid "Exclude By Keywords"
+msgstr "按关键字排除"
+
+#: settings.php:46 settings.php:301
+msgid "Exclude By Post Types"
+msgstr "按帖子类型排除"
+
+#: functions.php:37
+msgid "Exclude Post"
+msgstr "排除帖子"
+
+#: functions.php:154
+#| msgid "Exclude Posts From Search Result"
+msgid "Exclude Post From Search Result"
+msgstr "从搜索结果中排除帖子"
+
+#: functions.php:52
+msgid "Exclude Post from Search Results"
+msgstr "从搜索结果中排除帖子"
+
+#: settings.php:325
+msgid "Exclude Posts By Author"
+msgstr "按作者排除帖子"
+
+#: settings.php:313
+msgid "Exclude Posts By Term(Category)"
+msgstr "按期限（类别）排除帖子"
+
+#: settings.php:37
+msgid "Exclude Posts From Search Results"
+msgstr "从搜索结果中排除帖子"
+
+#. Name of the plugin
+msgid "Exclude Posts from Search Results"
+msgstr "Exclude Posts from Search Results"
+
+#: settings.php:108
+msgid "Exclude Posts From Search Results by Keyword and Sentence"
+msgstr "按关键字和句子从搜索结果中排除帖子"
+
+#: settings.php:147
+msgid "Exclude User Role :"
+msgstr "排除用户角色："
+
+#: settings.php:48
+msgid "Excluded Authors"
+msgstr "排除的作者"
+
+#: settings.php:44
+msgid "Excluded Posts"
+msgstr "排除的帖子"
+
+#: settings.php:47
+msgid "Excluded Terms"
+msgstr "排除条款"
+
+#: settings.php:193
+msgid "excluded user role, You can update from"
+msgstr "排除的用户角色，您可以从"
+
+#. Author of the plugin
+msgid "Geek Code Lab"
+msgstr "Geek Code Lab"
+
+#: settings.php:49 settings.php:160
+#| msgid "Get Pro*"
+msgid "Get Pro *"
+msgstr "获取专业版 *"
+
+#: settings.php:193
+msgid "Here"
+msgstr "这里"
+
+#. Author URI of the plugin
+msgid "https://geekcodelab.com/"
+msgstr "https://geekcodelab.com/"
+
+#: settings.php:127
+msgid "List of Posts, Excluded From Search Results"
+msgstr "从搜索结果中排除的帖子列表"
+
+#: settings.php:232
+msgid "No Posts excluded from the search results yet."
+msgstr "尚未从搜索结果中排除任何帖子。"
+
+#: settings.php:189 settings.php:291
+msgid "Note:"
+msgstr "笔记："
+
+#: settings.php:46 settings.php:47 settings.php:48
+msgid "pro"
+msgstr "专业版"
+
+#: settings.php:343
+msgid "Regular Updates."
+msgstr "定期更新。"
+
+#: settings.php:268
+msgid "Save Changes"
+msgstr "保存更改"
+
+#: settings.php:58 settings.php:78
+msgid "Save Settings"
+msgstr "保存设置"
+
+#: functions.php:79 settings.php:17 settings.php:18
+msgid "Search Exclude"
+msgstr "搜索排除"
+
+#: exclude-posts-from-search-results.php:190
+msgid "Settings"
+msgstr "设置"
+
+#: exclude-posts-from-search-results.php:187 settings.php:337
+msgid "Support"
+msgstr "支持"
+
+#. Description of the plugin
+msgid ""
+"This plugin excludes posts and pages from site's search results without "
+"harming SEO performance."
+msgstr "此插件从站点的搜索结果中排除帖子和页面，而不会损害 SEO 性能。"
+
+#: settings.php:337
+msgid "Timely"
+msgstr "及时"
+
+#: settings.php:240
+msgid "Title"
+msgstr "标题"
+
+#: settings.php:241
+msgid "Type"
+msgstr "类型"
+
+#: settings.php:353
+msgid "Upgrade To Premium"
+msgstr "升级到高级版"
+
+#: settings.php:45
+msgid "User Roles"
+msgstr "用户角色"
+
+#: settings.php:349
+msgid "Well Documented."
+msgstr "有据可查。"
+
+#: settings.php:28
+msgid "You do not have sufficient permissions to access this page."
+msgstr "您没有足够的权限访问此页面。"

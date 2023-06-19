@@ -1,0 +1,238 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Exclude Posts from Search Results\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-09-22 12:29+0000\n"
+"PO-Revision-Date: 2021-10-07 04:24+0000\n"
+"Last-Translator: \n"
+"Language-Team: Spanish (Spain)\n"
+"Language: es_ES\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Loco https://localise.biz/\n"
+"X-Loco-Version: 2.5.4; wp-5.8.1\n"
+"X-Domain: exclude-posts-from-search-results"
+
+#: settings.php:278
+msgid "(Non-Login)"
+msgstr "(Sin iniciar sesión)"
+
+#: settings.php:141
+msgid "All User roles"
+msgstr "Todos los roles de usuario"
+
+#: settings.php:291
+msgid ""
+"By default, this plugin will exclude posts only for guest (non-logged-in) "
+"users, if you want to exclude posts for any specific role type then you can "
+"select that user role from here."
+msgstr ""
+"De forma predeterminada, este complemento excluirá publicaciones solo para "
+"usuarios invitados (no conectados), si desea excluir publicaciones para "
+"cualquier tipo de rol específico, puede seleccionar ese rol de usuario desde "
+"aquí."
+
+#: settings.php:114
+msgid "Custom Keyword and Sentence :"
+msgstr "Palabras clave y frases personalizadas:"
+
+#: settings.php:190
+msgid ""
+"Enter any keyword or sentence to exclude the posts from search results that "
+"contain these keywords or sentences in their title, content, or excerpt."
+msgstr ""
+"Ingrese cualquier palabra clave u oración para excluir las publicaciones de "
+"los resultados de búsqueda que contengan estas palabras clave u oraciones en "
+"su título, contenido o extracto."
+
+#: settings.php:306
+msgid ""
+"Exclude all posts of a post type from search results by just selecting the "
+"post type, no need to select individual posts. All the posts from selected "
+"post types will get excluded from the search results."
+msgstr ""
+"Excluya todas las publicaciones de un tipo de publicación de los resultados "
+"de búsqueda con solo seleccionar el tipo de publicación, sin necesidad de "
+"seleccionar publicaciones individuales. Todas las publicaciones de los tipos "
+"de publicaciones seleccionados se excluirán de los resultados de búsqueda."
+
+#: settings.php:330
+msgid ""
+"Exclude all posts of a specific Author from search results, no need to "
+"select individual posts for a specific Term. All the posts from the selected "
+"Author will get excluded from the search results."
+msgstr ""
+"Excluya todas las publicaciones de un Autor específico de los resultados de "
+"búsqueda, no es necesario seleccionar publicaciones individuales para un "
+"Término específico. Todas las publicaciones del autor seleccionado se "
+"excluirán de los resultados de búsqueda."
+
+#: settings.php:318
+msgid ""
+"Exclude all posts of a specific Term from search results by just selecting "
+"the Term, no need to select individual posts for a specific Term. All the "
+"posts from selected Terms will get excluded from the search results."
+msgstr ""
+"Excluya todas las publicaciones de un Término específico de los resultados "
+"de búsqueda con solo seleccionar el Término, sin necesidad de seleccionar "
+"publicaciones individuales para un Término específico. Todas las "
+"publicaciones de los Términos seleccionados se excluirán de los resultados "
+"de búsqueda."
+
+#: settings.php:43
+msgid "Exclude By Keywords"
+msgstr "Excluir por palabras clave"
+
+#: settings.php:46 settings.php:301
+msgid "Exclude By Post Types"
+msgstr "Excluir por tipos de publicación"
+
+#: functions.php:37
+msgid "Exclude Post"
+msgstr "Excluir publicación"
+
+#: functions.php:154
+#| msgid "Exclude Posts From Search Result"
+msgid "Exclude Post From Search Result"
+msgstr "Excluir publicaciones del resultado de la búsqueda"
+
+#: functions.php:52
+msgid "Exclude Post from Search Results"
+msgstr "Excluir la publicación de los resultados de la búsqueda"
+
+#: settings.php:325
+msgid "Exclude Posts By Author"
+msgstr "Excluir publicaciones por autora"
+
+#: settings.php:313
+msgid "Exclude Posts By Term(Category)"
+msgstr "Excluir publicaciones por término (categoría)"
+
+#: settings.php:37
+msgid "Exclude Posts From Search Results"
+msgstr "Excluir publicaciones de los resultados de la búsqueda"
+
+#. Name of the plugin
+msgid "Exclude Posts from Search Results"
+msgstr "Exclude Posts from Search Results"
+
+#: settings.php:108
+msgid "Exclude Posts From Search Results by Keyword and Sentence"
+msgstr ""
+"Excluir publicaciones de los resultados de búsqueda por palabra clave y frase"
+
+#: settings.php:147
+#| msgid "Excluded User roles :"
+msgid "Exclude User Role :"
+msgstr "Excluir rol de usuario:"
+
+#: settings.php:48
+msgid "Excluded Authors"
+msgstr "Autores excluidas"
+
+#: settings.php:44
+msgid "Excluded Posts"
+msgstr "Publicaciones excluidas"
+
+#: settings.php:47
+msgid "Excluded Terms"
+msgstr "Términos excluidos"
+
+#: settings.php:193
+msgid "excluded user role, You can update from"
+msgstr "rol de usuario excluido, puede actualizar desde"
+
+#. Author of the plugin
+msgid "Geek Code Lab"
+msgstr "Geek Code Lab"
+
+#: settings.php:49 settings.php:160
+msgid "Get Pro *"
+msgstr "Obtener pro *"
+
+#: settings.php:193
+msgid "Here"
+msgstr "Aquí"
+
+#. Author URI of the plugin
+msgid "https://geekcodelab.com/"
+msgstr "https://geekcodelab.com/"
+
+#: settings.php:127
+msgid "List of Posts, Excluded From Search Results"
+msgstr "Lista de publicaciones, excluidas de los resultados de búsqueda"
+
+#: settings.php:232
+msgid "No Posts excluded from the search results yet."
+msgstr "Aún no se han excluido publicaciones de los resultados de búsqueda."
+
+#: settings.php:189 settings.php:291
+msgid "Note:"
+msgstr "Nota:"
+
+#: settings.php:46 settings.php:47 settings.php:48
+msgid "pro"
+msgstr "PRO"
+
+#: settings.php:343
+msgid "Regular Updates."
+msgstr "Actualizaciones periódicas."
+
+#: settings.php:268
+msgid "Save Changes"
+msgstr "Guardar cambios"
+
+#: settings.php:58 settings.php:78
+msgid "Save Settings"
+msgstr "Guardar ajustes"
+
+#: functions.php:79 settings.php:17 settings.php:18
+msgid "Search Exclude"
+msgstr "Buscar excluir"
+
+#: exclude-posts-from-search-results.php:190
+msgid "Settings"
+msgstr "Ajustes"
+
+#: exclude-posts-from-search-results.php:187 settings.php:337
+msgid "Support"
+msgstr "Apoyo"
+
+#. Description of the plugin
+msgid ""
+"This plugin excludes posts and pages from site's search results without "
+"harming SEO performance."
+msgstr ""
+"Este complemento excluye publicaciones y páginas de los resultados de "
+"búsqueda del sitio sin dañar el rendimiento de SEO."
+
+#: settings.php:337
+msgid "Timely"
+msgstr "Oportuna"
+
+#: settings.php:240
+msgid "Title"
+msgstr "Título"
+
+#: settings.php:241
+msgid "Type"
+msgstr "Escribe"
+
+#: settings.php:353
+msgid "Upgrade To Premium"
+msgstr "Mejorado a Premium"
+
+#: settings.php:45
+#| msgid "User roles"
+msgid "User Roles"
+msgstr "Roles del usuario"
+
+#: settings.php:349
+msgid "Well Documented."
+msgstr "Bien documentada."
+
+#: settings.php:28
+msgid "You do not have sufficient permissions to access this page."
+msgstr "No tiene permisos suficientes para acceder a esta página."
