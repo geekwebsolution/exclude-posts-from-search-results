@@ -55,19 +55,20 @@ if( ! class_exists( 'Gwsepfsr_Exclude_Posts_from_Search_Results_Core' ) ) {
 		}
 
 		public function epfsr_save_metabox($post_id){
-			global $post;
-			$args = array('public' => false,'show_ui' =>true);
-			$post_types = get_post_types( $args, 'names' );
-			unset($post_types['wp_block']);
-			$c_pt = get_current_screen()->post_type;
-			if (defined('DOING_AUTOSAVE') && DOING_AUTOSAVE) return $post_id;
-			if (in_array($c_pt,$post_types)) {return;}
-			if ( !current_user_can( 'manage_options' ) ) {return;}
-			if (isset($_POST['epfsr_exclude_post_value'])) {
-				$exclude_value = sanitize_text_field( $_POST['epfsr_exclude_post_value'] );
-				update_post_meta( $post_id, 'epfsr_exclude_post_value', $exclude_value );
-			}else {
-				update_post_meta( $post_id, 'epfsr_exclude_post_value', '' );
+			if(isset($_POST['_wp_http_referer'])) {
+				$args = array('public' => false,'show_ui' =>true);
+				$post_types = get_post_types( $args, 'names' );
+				unset($post_types['wp_block']);
+				$c_pt = get_current_screen()->post_type;
+				if (defined('DOING_AUTOSAVE') && DOING_AUTOSAVE) return $post_id;
+				if (in_array($c_pt,$post_types)) {return;}
+				if ( !current_user_can( 'manage_options' ) ) {return;}
+				if (isset($_POST['epfsr_exclude_post_value'])) {
+					$exclude_value = sanitize_text_field( $_POST['epfsr_exclude_post_value'] );
+					update_post_meta( $post_id, 'epfsr_exclude_post_value', $exclude_value );
+				}else {
+					update_post_meta( $post_id, 'epfsr_exclude_post_value', '' );
+				}
 			}
 		}
 
