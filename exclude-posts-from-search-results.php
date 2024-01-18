@@ -4,7 +4,7 @@
 * Plugin Name: Exclude Posts from Search Results
 * Description: This plugin excludes posts and pages from site's search results without harming SEO performance.
 * Author: Geek Code Lab
-* Version: 1.7
+* Version: 1.8
 * Author URI: https://geekcodelab.com/
 * Text Domain : exclude-posts-from-search-results
 * Domain Path: /languages
@@ -12,7 +12,7 @@
 
 if(!defined('ABSPATH')) exit;
 
-define("GWSEPFSR_BUILD",'1.7');
+define("GWSEPFSR_BUILD",'1.8');
 if(!defined("GWSEPFSR_PLUGIN_DIR_PATH"))
     define( 'GWSEPFSR_PLUGIN_DIR_PATH', plugin_dir_path( __FILE__ ) );
 

@@ -55,7 +55,7 @@ if( ! class_exists( 'Gwsepfsr_Exclude_Posts_from_Search_Results_Core' ) ) {
 		}
 
 		public function epfsr_save_metabox($post_id){
-			if(isset($_POST['_wp_http_referer'])) {
+			if(isset($_POST['_wp_http_referer']) || (isset($_POST["action"]) && $_POST["action"] == 'inline-save')) {
 				$args = array('public' => false,'show_ui' =>true);
 				$post_types = get_post_types( $args, 'names' );
 				unset($post_types['wp_block']);
@@ -140,6 +140,7 @@ if( ! class_exists( 'Gwsepfsr_Exclude_Posts_from_Search_Results_Core' ) ) {
 		}
 
 		public function epfsr_add_quick_edit($column_name, $post_type){
+
 			if (!($column_name === 'epfsr_exclude')) 
 			{	
 				return;

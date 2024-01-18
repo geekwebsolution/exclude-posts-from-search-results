@@ -4,8 +4,8 @@ Donate link: https://paypal.me/rvadhel
 Tags:search exclude, exclude posts, exclude page, exclude search results ,search exclude post
 Requires PHP: 5.2.4
 Requires at least: 3.0.1
-Tested up to: 6.4.1
-Stable tag: 1.7
+Tested up to: 6.4.2
+Stable tag: 1.8
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -81,6 +81,9 @@ Step #3: After activation, you will see the Exclude Post option will be availabl
 6. Exclude post option in quick edit post
 
 == Changelog ==
+= 1.8 =
+*Fixed bugs
+
 = 1.7 =
 *Fixed bugs
 

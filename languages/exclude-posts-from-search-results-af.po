@@ -161,8 +161,8 @@ msgid "List of Posts, Excluded From Search Results"
 msgstr "Lys van plasings, uitgesluit van soekresultate"
 
 #: settings.php:232
-msgid "No Posts excluded from the search results yet."
-msgstr "Nog geen plasings uitgesluit van die soekresultate nie."
+msgid "No Posts excluded from the search results yet. You can exclude post by selecting "Exclude Post from Search Results" on edit post screen."
+msgstr "Geen plasings is nog van die soekresultate uitgesluit nie. Jy kan plasing uitsluit deur "Sluit plasing uit van soekresultate" op wysig plasingskerm te kies."
 
 #: settings.php:189 settings.php:291
 msgid "Note:"

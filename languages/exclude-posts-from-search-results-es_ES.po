@@ -165,8 +165,8 @@ msgid "List of Posts, Excluded From Search Results"
 msgstr "Lista de publicaciones, excluidas de los resultados de búsqueda"
 
 #: settings.php:232
-msgid "No Posts excluded from the search results yet."
-msgstr "Aún no se han excluido publicaciones de los resultados de búsqueda."
+msgid "No Posts excluded from the search results yet. You can exclude post by selecting "Exclude Post from Search Results" on edit post screen."
+msgstr "Aún no hay publicaciones excluidas de los resultados de búsqueda. Puede excluir una publicación seleccionando "Excluir publicación de los resultados de búsqueda" en la pantalla de edición de publicación."
 
 #: settings.php:189 settings.php:291
 msgid "Note:"
