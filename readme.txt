@@ -2,7 +2,7 @@
 Contributors: rajkakadiya, rvadhel
 Donate link: https://paypal.me/rvadhel
 Tags:search exclude, exclude posts, exclude page, exclude search results ,search exclude post
-Requires PHP: 5.2.4
+Requires PHP: 7.4
 Requires at least: 3.0.1
 Tested up to: 6.4.2
 Stable tag: 1.8
