@@ -145,8 +145,8 @@ msgid "List of Posts, Excluded From Search Results"
 msgstr "從搜索結果中排除的帖子列表"
 
 #: settings.php:232
-msgid "No Posts excluded from the search results yet."
-msgstr "尚未從搜索結果中排除任何帖子。"
+msgid "No Posts excluded from the search results yet. You can exclude post by selecting "Exclude Post from Search Results" on edit post screen."
+msgstr "搜索结果中尚未排除任何帖子。 您可以通过在编辑帖子屏幕上选择“从搜索结果中排除帖子”来排除帖子。"
 
 #: settings.php:189 settings.php:291
 msgid "Note:"

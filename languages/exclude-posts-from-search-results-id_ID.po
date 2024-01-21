@@ -161,8 +161,8 @@ msgid "List of Posts, Excluded From Search Results"
 msgstr "Daftar Postingan, Dikecualikan Dari Hasil Pencarian"
 
 #: settings.php:232
-msgid "No Posts excluded from the search results yet."
-msgstr "Belum ada Postingan yang dikecualikan dari hasil pencarian."
+msgid "No Posts excluded from the search results yet. You can exclude post by selecting "Exclude Post from Search Results" on edit post screen."
+msgstr "Belum ada Postingan yang dikecualikan dari hasil pencarian. Anda dapat mengecualikan postingan dengan memilih "Kecualikan Postingan dari Hasil Pencarian" pada layar edit postingan."
 
 #: settings.php:189 settings.php:291
 msgid "Note:"

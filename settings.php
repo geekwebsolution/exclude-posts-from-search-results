@@ -231,7 +231,7 @@ if( ! class_exists( 'Gwsepfsr_Exclude_from_Search_Results_Settings' ) ) {
             }
             ?>
                 <?php if (empty($postId)):?>
-                    <p><?php _e('No Posts excluded from the search results yet.','exclude-posts-from-search-results'); ?></p>
+                    <p><?php _e('No Posts excluded from the search results yet. You can exclude post by selecting "Exclude Post from Search Results" on edit post screen.','exclude-posts-from-search-results'); ?></p>
                 <?php else: ?>
                     <form method="post" action="admin.php?page=epfsr-settings&tab=posts" enctype="multipart/form-data">
                     
