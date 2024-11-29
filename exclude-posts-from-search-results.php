@@ -19,6 +19,17 @@ if(!defined("GWSEPFSR_PLUGIN_DIR_PATH"))
 if(!defined("GWSEPFSR_PLUGIN_URL"))
 	define("GWSEPFSR_PLUGIN_URL",plugins_url().'/'.basename(dirname(__FILE__)));
 
+
+if (!defined("GWSEPFSR_PLUGIN_BASENAME"))
+define("GWSEPFSR_PLUGIN_BASENAME", plugin_basename(__FILE__));
+
+if (!defined("GWSEPFSR_PLUGIN_DIR"))
+	define("GWSEPFSR_PLUGIN_DIR", plugin_basename(__DIR__));
+
+require_once(GWSEPFSR_PLUGIN_DIR_PATH . 'updater/updater.php');
+
+add_action('upgrader_process_complete', 'epfsr_updater_activate'); // remove  transient  on plugin  update
+
 if( ! class_exists( 'Gwsepfsr_Exclude_Posts_from_Search_Results' ) ) {
 	class Gwsepfsr_Exclude_Posts_from_Search_Results{
 
@@ -93,6 +104,7 @@ if( ! class_exists( 'Gwsepfsr_Exclude_Posts_from_Search_Results' ) ) {
 		}
 
 		public function epfsr_activation_callback() {
+			epfsr_updater_activate();
 			if ( is_plugin_active( 'exclude-posts-from-search-results-pro/exclude-posts-from-search-results-pro.php' ) ) {
                 deactivate_plugins( 'exclude-posts-from-search-results-pro/exclude-posts-from-search-results-pro.php' );
             }
